@@ -1,20 +1,24 @@
 {
-	"name": "fcc-infosec-challenges",
-	"version": "0.0.1",
-	"description": "fcc backend boilerplate",
-	"main": "server.js",
-	"scripts": {
-		"start": "node myApp.js"
-	},
-	"dependencies": {
-		"express": "^4.14.0",
-		"helmet": "3.21.3"
-	},
-	"keywords": [
-		"node",
-		"hyperdev",
-		"express",
-		"freecodecamp"
-	],
-	"license": "MIT"
+  "name": "fcc-infosec-challenges",
+  "version": "0.0.1",
+  "description": "fcc backend boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "start": "node myApp.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "helmet": "2.3.0",
+    "cors": "^2.8.1",
+    "body-parser": "^1.16.0",
+    "mongodb": "^2.2.22",
+    "bcrypt": "^5.1.0"
+  },
+  "keywords": [
+    "node",
+    "hyperdev",
+    "express",
+    "freecodecamp"
+  ],
+  "license": "MIT"
 }
